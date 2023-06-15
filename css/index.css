@@ -32,7 +32,8 @@ footer a {
 
 
 li {
-    padding-top: 10px;
+    font-size: large;
+    list-style: square;
 }
 
 nav {
@@ -64,4 +65,12 @@ nav a:hover {
 
 nav a:visited {
     color:white;
+}
+
+p {
+    font-size:large;
+}
+
+.genius {
+    text-decoration: overline;
 }
