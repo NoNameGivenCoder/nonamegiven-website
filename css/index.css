@@ -1,14 +1,4 @@
-::-webkit-scrollbar {
-    width: 8px;
-    background-color: rgb(69, 69, 69);
-}
 
-::-webkit-scrollbar-thumb {
-    width: 4px;
-    background-color: rgb(41, 41, 41);
-
-    border-radius: 10px;
-}
 
 
 @font-face {
@@ -17,7 +7,8 @@
 }
 
 body, html {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
     height: 100%;
     width: 100%;
 }
@@ -41,6 +32,10 @@ footer a {
     float:left;
 
     text-align: center;
+}
+
+#miiData {
+    cursor: pointer;
 }
 
 
@@ -91,8 +86,7 @@ p {
 }
 
 #dw {
-    width: 45%; 
-    padding-left: 5%; 
+    width: 45%;
     color: white; 
     font-family: nonamegiven;
 }
@@ -102,6 +96,15 @@ p {
     justify-content: center; 
     padding-bottom: 50px; 
     background: linear-gradient(50deg, rgb(68, 42, 107) 0%, rgba(43,35,50,1) 100%);
+}
+
+#description {
+    width: 100%; 
+    display: flex; 
+    justify-content:space-around; 
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    background: linear-gradient(50deg, rgb(43, 23, 75) 0%, rgba(43,35,50,1) 100%);
 }
 
 
@@ -114,6 +117,7 @@ p {
         background-color: antiquewhite;
 
         display: flex;
+        justify-content: center;
     }
 
     #dw {
@@ -123,11 +127,11 @@ p {
     #paragraph {
         display: block;
         width: 100%;
+        text-align: center;
     }
 
     #pfp {
-        width: 165px;
-        height: 165px; 
+        width: fit-content;
     }
 
     #dw h1 {
@@ -136,10 +140,5 @@ p {
 
     #info small-description {
         font-size: small;
-    }
-
-    #info div {
-        padding-left: 0%;
-        padding-right: 0%;
     }
 }
