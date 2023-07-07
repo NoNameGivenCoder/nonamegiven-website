@@ -139,6 +139,6 @@ p {
     }
 
     #info small-description {
-        font-size: small;
+        display: none;
     }
 }
