@@ -67,6 +67,8 @@ nav a {
     text-rendering: auto;
     text-decoration: none;
 
+    color:white;
+
     padding: 7px;
 }
 
@@ -95,6 +97,13 @@ p {
     font-family: nonamegiven;
 }
 
+#info {
+    display: flex; 
+    justify-content: center; 
+    padding-bottom: 50px; 
+    background: linear-gradient(50deg, rgb(68, 42, 107) 0%, rgba(43,35,50,1) 100%);
+}
+
 
 @media only screen and (max-width: 600px) {
     #gif-wrapper {
@@ -108,8 +117,6 @@ p {
     }
 
     #dw {
-        transition: ease-in-out 0.1s;
-
         width: 100%;
     }
 
@@ -120,9 +127,19 @@ p {
 
     #pfp {
         width: 165px;
-        height: 165px;
+        height: 165px; 
+    }
 
-        margin-left: 3%;
-        margin-right: 3%;
+    #dw h1 {
+        text-align: center;
+    }
+
+    #info small-description {
+        font-size: small;
+    }
+
+    #info div {
+        padding-left: 0%;
+        padding-right: 0%;
     }
 }
