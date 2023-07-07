@@ -68,9 +68,40 @@ nav a:visited {
 }
 
 p {
-    font-size:large;
+    font-size:medium;
 }
 
 .genius {
     text-decoration: overline;
+}
+
+#dw {
+    width: 45%; 
+    padding-left: 5%; 
+    color: white; 
+    font-family: nonamegiven;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #gif-wrapper {
+        display: none;
+    }
+
+    #description {
+        background-color: antiquewhite;
+
+        display: flex;
+    }
+
+    #dw {
+        transition: ease-in-out 0.1s;
+
+        width: 100%;
+    }
+
+    #paragraph {
+        display: block;
+        width: 100%;
+    }
 }
