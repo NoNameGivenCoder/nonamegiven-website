@@ -1,3 +1,16 @@
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgb(69, 69, 69);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 4px;
+    background-color: rgb(41, 41, 41);
+
+    border-radius: 10px;
+}
+
+
 @font-face {
     font-family: nonamegiven;
     src: url('../fonts/Inter-Regular.ttf');
