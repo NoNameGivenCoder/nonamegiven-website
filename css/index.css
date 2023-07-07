@@ -117,4 +117,12 @@ p {
         display: block;
         width: 100%;
     }
+
+    #pfp {
+        width: 165px;
+        height: 165px;
+
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
