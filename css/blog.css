@@ -1,0 +1,43 @@
+.blogPost {
+    background-color: rgb(255, 255, 255, 0.15);
+
+    color: white;
+    font-family: nonamegiven;
+    font-size: larger;
+
+    display: flex;
+    justify-content: left;
+    align-items:flex-start;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+}
+
+.blogPost header {
+    position: relative;
+
+    margin-left: 15px;
+
+    width: 100%;
+}
+
+.blogPost content {
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    position: relative;
+}
+
+.blogPost content text {
+    margin-left: 15px;
+}
+
+.blogPost content img {
+    margin-right: 15px
+}

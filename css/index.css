@@ -1,9 +1,7 @@
 
-
-
 @font-face {
     font-family: nonamegiven;
-    src: url('../fonts/Inter-Regular.ttf');
+    src: url('../fonts/sansserif.ttf');
 }
 
 body, html {
@@ -50,12 +48,17 @@ nav {
     color: white;
 
     position: sticky;
-    background: rgba(255, 255, 255, 0.2);
-    top: 100%;
+
+    background: rgb(109, 71, 139);
+    top: 0;
 
     display: flex;
 
-    justify-content: center;
+    justify-content: space-around;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+
+    z-index: 10;
 }
 
 nav a {
@@ -64,7 +67,7 @@ nav a {
 
     color:white;
 
-    padding: 7px;
+    padding: 8px;
 }
 
 nav a:hover {
@@ -87,8 +90,7 @@ p {
 
 #dw {
     width: 45%;
-    color: white; 
-    font-family: Days One;
+    color: white;
 }
 
 #info {
@@ -187,13 +189,14 @@ p {
     }
 
     #dw {
-        width: 100%;
+        width: 80%;
+        text-align: left;
     }
 
     #paragraph {
         display: block;
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     #pfp {
