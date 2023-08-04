@@ -21,9 +21,9 @@
 .blogPost header {
     position: relative;
 
-    margin-left: 15px;
+    padding-left: 15px;
 
-    width: 100%;
+    width: 90%;
 }
 
 .blogPost content {
