@@ -11,7 +11,7 @@ function copyMiiData() {
 }
 
 async function CreateNav() {
-    var navFetch = window.location.host
+    var navFetch = await (await (await fetch("https://nonamegiven.xyz/nav.html")).blob()).text()
 
     console.log(navFetch)
 }
