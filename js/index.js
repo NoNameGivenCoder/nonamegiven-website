@@ -12,8 +12,9 @@ function copyMiiData() {
 
 async function CreateNav() {
     var navFetch = await (await (await fetch("https://nonamegiven.xyz/nav.html")).blob()).text()
+    var body = $("body")
 
-    console.log(navFetch)
+    body.prepend(navFetch)
 }
 
 function CreateBlog() {
