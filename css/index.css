@@ -9,8 +9,8 @@ body, html {
     padding: 0px;
     height: 100%;
     width: 100%;
-    background: rgb(55,23,75); 
-    background: linear-gradient(50deg, rgb(43, 23, 75) 0%, rgba(43,35,50,1) 100%);
+    background: rgb(83, 83, 83); 
+    background: linear-gradient(50deg, rgb(45, 45, 45) 0%, rgb(53, 52, 53) 100%);
 }
 
 footer {
@@ -21,6 +21,34 @@ footer {
 
     text-align: center;
     justify-content: center;
+}
+
+.blurb {
+    display: inline; 
+    vertical-align: middle; 
+    margin-left: 10px; 
+    font-weight: bold; 
+    font-size: large;
+}
+
+.card-holder {
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+    margin-top: 2%;
+}
+
+.card {
+    width: 75%;
+    height: fit-content;
+    position: relative;
+
+    border-radius: 5px;
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
 }
 
 footer a {
@@ -40,8 +68,9 @@ footer a {
 
 
 li {
-    font-size: large;
+    font-size: medium;
     list-style: square;
+    margin-top: 10px;
 }
 
 nav {
@@ -51,7 +80,7 @@ nav {
 
     position: sticky;
 
-    background: rgb(109, 71, 139);
+    background: rgb(100, 94, 103);
     top: 0;
 
     display: flex;
@@ -178,7 +207,7 @@ p {
     font-family: nonamegiven;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 635px) {
     #gif-wrapper {
         display: none;
     }
@@ -201,15 +230,19 @@ p {
         text-align: left;
     }
 
-    #pfp {
-        width: fit-content;
-    }
-
     #dw h1 {
         text-align: center;
     }
 
     #info small-description {
         display: none;
+    }
+
+    .blurb {
+        display: none;
+    }
+
+    .desc {
+        text-align: center;
     }
 }
