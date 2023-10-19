@@ -9,6 +9,8 @@ body, html {
     padding: 0px;
     height: 100%;
     width: 100%;
+    background: rgb(55,23,75); 
+    background: linear-gradient(50deg, rgb(43, 23, 75) 0%, rgba(43,35,50,1) 100%);
 }
 
 footer {

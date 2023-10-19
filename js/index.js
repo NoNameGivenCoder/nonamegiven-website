@@ -9,3 +9,13 @@ function copyMiiData() {
         })
     
 }
+
+async function CreateNav() {
+    var navFetch = window.location.host
+
+    console.log(navFetch)
+}
+
+function CreateBlog() {
+    
+}
