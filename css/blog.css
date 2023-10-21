@@ -3,10 +3,11 @@
     width: 100%;
 
     justify-content: center;
-    flex-direction: column;
 }
 
 .blog_post {
     width: 70%;
-    
+    height: max-content;
+    padding: 5px;
+    padding-bottom: 10px;
 }
