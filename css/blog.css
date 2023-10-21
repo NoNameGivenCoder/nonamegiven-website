@@ -1,45 +1,12 @@
-.blogPost {
-    background-color: rgb(255, 255, 255, 0.15);
-
-    color: white;
-    font-family: nonamegiven;
-    font-size: larger;
-
+.blog_holder {
     display: flex;
-    justify-content: left;
-    align-items:flex-start;
+    width: 100%;
+
+    justify-content: center;
     flex-direction: column;
-
-    width: 100%;
-    height: fit-content;
-
-    margin: 0;
-
-    margin-bottom: 15px;
 }
 
-.blogPost header {
-    position: relative;
-
-    padding-left: 15px;
-
-    width: 90%;
-}
-
-.blogPost content {
-
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-
-    position: relative;
-}
-
-.blogPost content text {
-    margin-left: 15px;
-}
-
-.blogPost content img {
-    margin-right: 15px
+.blog_post {
+    width: 70%;
+    
 }
